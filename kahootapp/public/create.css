@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(250,250,250);
+}
+
+.mm{
+    color: rgb(255, 220, 220);
+    background: green;
+    padding: 2px;
+    border: 1px solid green;
+    border-radius:100%;
+    margin-right:9px ;
+
+  }
+  .jj{
+color: green;
+transition: 2s all;
+
+  }
+  .tb{
+    clip-path: circle(50% at 50% 50%);
+    height: 130px;
+    width: 130px ;
+    object-fit: cover;
+  }
+  
+  .kit:hover{
+    /* border:1px solid gray; */
+    background-color:rgb(242,242,242);
+    
+    
+  }
+  .kit:focus-within{
+    color: chocolate !important;
+    background-color: rgb(242,242,242);
+  }
+  .jk{
+    margin-left: 56em;
+  }
+  .k1{
+    font-size: 11px;
+  }
+  .mt{
+    margin-top: 60px;
+    background-color:white ;
+  }
+  .maya{
+    box-shadow: 2px 2px 2px 2px black;
+    height: fit-content;
+    margin-top: 60px ;
+    /* width: 700px; */
+    overflow: hidden;
+    
+  }
+.mls{
+  margin-left: -100px;
+}
+  .h{
+    height: 230px;
+    position: relative;
+  }
+  .lol{
+    left: 80px;
+    bottom: 90px;
+  }
+  .dt{
+    font-size: 13px;
+  }
+  .obj{
+    margin-left: 40px;
+  }
+  .lit{
+    list-style: none;
+  }
+  .kan{
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .og{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  @media (max-width :1115px) {
+    .jk{
+      margin-left: 0;
+      text-align: center;
+      padding: 10px 0;
+    }
+    .jac{
+      width: 100% !important;
+      padding: 0 10px;
+    }
+    .mj{
+      display: block !important; 
+      z-index: 2;
+    }
+    .mls{
+      margin-left: 0;
+    }
+   } 
+   
+
+   .bi-house-fill,.bi-compass,.bi-list-task,.bi-people-fill,.bi-shop,.bi-person-circle,.bi-question-circle,.bi-box-arrow-left{
+    font-size: 20px;
+    margin-bottom: 20px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .carousel_container {
+    width: 1000px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+  .slider {
+    transition: transform 1s ease-in-out;
+  }
+  .carousel_container::-webkit-scrollbar {
+    display: none;
+  }
